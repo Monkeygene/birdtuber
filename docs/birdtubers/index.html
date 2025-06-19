@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>birdtubers</title>  
+    <link rel="stylesheet" href="/assets/css/build/tailwind.css">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body class="bg-white">
+<nav class="bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+
+      <!-- Logo (left) -->
+      <div class="flex-shrink-0">
+        <a href="/">
+          <img src="/assets/images/logo/birdtuber.png" alt="BirdTuber logo - white bird in red YouTube-style square" class="h-10 w-auto">
+        </a>
+      </div>
+
+      <!-- Hamburger Button (mobile only) -->
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="/birdtubers" class="text-gray-800 hover:text-black font-medium transition">birdtubers</a>
+        <a href="/about" class="text-gray-800 hover:text-black font-medium transition">about</a>
+        <a href="/contact" class="text-gray-800 hover:text-black font-medium transition">contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Full-Width Menu (initially hidden) -->
+  <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-300 ease-out bg-white px-4 space-y-2">
+    <a href="/birdtubers" class="block text-gray-800 hover:text-black font-medium transition">birdtubers</a>
+    <a href="/about" class="block text-gray-800 hover:text-black font-medium transition">about</a>
+    <a href="/contact" class="block text-gray-800 hover:text-black font-medium transition">contact</a>
+  </div>
+</nav>
+<main>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- Page Title -->
+    <h1 class="text-3xl font-bold text-gray-900 mb-2 text-center">birdtubers</h1>
+
+    <!-- Description -->
+    <p class="text-gray-600 mb-10 max-w-2xl mx-auto text-center">
+      Explore our talented BirdTubers – passionate creators from around the world sharing birding adventures, gear tips, and epic birdwatching destinations. Dive into their content and connect with your favorites!
+    </p>
+
+    <!-- Grid of BirdTubers -->
+<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+  
+  <!-- BirdingLegend -->
+  <div class="flex flex-col items-center text-center">
+    <a href="/birdinglegend">
+      <div class="rounded-full p-1 border-2 border-transparent hover:border-red-600 transition duration-200 ease-in-out">
+        <img src="/assets/images/birdinglegend/birdinglegend.jpg" alt="@birdinglegend profile photo"
+             class="rounded-full h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 object-cover shadow-md">
+      </div>
+    </a>
+    <span class="text-gray-800 font-medium text-sm sm:text-base">Birding Legend</span>
+  </div>
+
+  <!-- BrightEyedBirding -->
+  <div class="flex flex-col items-center text-center">
+    <a href="/brighteyedbirding">
+      <div class="rounded-full p-1 border-2 border-transparent hover:border-red-600 transition duration-200 ease-in-out">
+        <img src="/assets/images/brighteyedbirding/brighteyedbirding.jpg" alt="@brighteyedbirding profile photo"
+             class="rounded-full h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 object-cover shadow-md">
+      </div>
+    </a>
+    <span class="text-gray-800 font-medium text-sm sm:text-base">Bright-Eyed Birding</span>
+  </div>
+
+  <!-- TheDutchBirder -->
+  <div class="flex flex-col items-center text-center">
+    <a href="/thedutchbirder">
+      <div class="rounded-full p-1 border-2 border-transparent hover:border-red-600 transition duration-200 ease-in-out">
+        <img src="/assets/images/thedutchbirder/thedutchbirder.jpg" alt="@thedutchbirder profile photo"
+             class="rounded-full h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32 object-cover shadow-md">
+      </div>
+    </a>
+    <span class="text-gray-800 font-medium text-sm sm:text-base">The Dutch Birder</span>
+  </div>
+
+</div>
+
+  </div>
+</main>
+
+
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
